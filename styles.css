@@ -1,0 +1,582 @@
+#particuliers {
+	color: white;
+	
+}
+
+#image_des{
+    width: 100%;
+}
+
+.first_menu {
+	color: white;
+	text-decoration : none;
+}
+
+#id {
+	width: 60%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-device-width: 768px){
+    #id{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	.navbar navbar-expand-md navbar-light bg-white {
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-item {
+    padding-bottom: 6px
+  }
+}
+
+
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-item a:hover {
+	
+	color: white;
+	
+}
+
+
+
+
+body {
+  margin: 0;
+
+}
+
+
+@media (max-width:600px) {
+  img#image_menu {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  div#deuxieme_menu {
+    float:left;
+	display: block;
+	
+  }
+}
+
+
+#img_des{
+    width: 100%;
+}
+
+#premier_menu {
+	float: right;
+}
+
+#deuxieme_menu {
+	float: right;
+	display:block;
+}
+
+.text_img {
+	font-size: 25px;
+	color: white;
+	font-weight: 900;
+}
+
+.text_content {
+	
+	text-align: center;
+}
+
+#text_content {
+	text-align: center;
+	
+}
+#text_content1 {
+	text-align: center;
+	
+}
+#text_content2 {
+	text-align: center;
+	
+}
+
+#content_1 {
+	border-right: 1px solid black;
+}
+
+#content_2 {
+	border-right: 1px solid black;
+}
+
+#footer {
+	background-color: #333;
+	width: 100%
+	
+}
+
+#liste_footer {
+	color: white;
+	font-weight: bold;
+}
+
+#liste_footer1 {
+	color: white;
+	font-weight: bold;
+}
+
+#liste_footer3 {
+	color: white;
+	font-weight: bold;
+}
+
+#liste_footer4 {
+	color: white;
+	font-weight: bold;
+}
+
+#liste_footer2 {
+	color: white;
+	font-weight: italic;
+	border-top: 1px solid white;
+}
+
+.liste_footer {
+	color: white;
+	font-family: italic;
+	
+}
+
+#container {
+	background-color: lightgray;
+	overflow: auto;
+}
+
+
+a.liste_footer::hover {
+	color: white;
+}
+
+
+h2 {
+    font-family: 'Audiowide', cursive;
+}
+
+.bleue {
+    
+    color: blue;
+}
+
+
+
+.vert {
+    color: green;
+}
+
+.bleue2 {
+    
+    color: blue;
+    text-align:center;
+}
+
+
+
+.vert2 {
+    color: green;
+    text-align:center;
+}
+
+
+.no_compte {
+    float: right;
+   margin-right: 3%;
+   
+  
+}
+
+.nom_compte {
+    float: left;
+
+}
+
+.montant {
+    float: left;
+    clear: both;
+}
+
+
+
+
+#table_compte4 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte5 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte6 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte7 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte8 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte9 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte10 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+#table_compte11 {
+   border: 1px solid #A3CE36;
+   border-collapse: collapse;
+}
+
+
+
+.floatLeft { 
+    width: 15%;
+float: left; 
+    margin-right: 5%;
+}
+.floatRight {width: 80%; float: right; }
+.container { overflow: auto; }
+
+.balance {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+
+#tab_color:nth-child(odd) {
+  background: lightgray;
+}
+
+
+
+
+#compte {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.erreur {
+    color: red;
+}
+
+.table_center {
+    text-align: center;
+}
+
+
+#bouton_compte {
+    width: 100%;
+}
+
+#bouton_compte2 {
+    width: 25%;
+    color: white;
+}
+
+
+#bouton_compte3 {
+    color: white;
+    width: 25%;
+}
+#bouton_compte4 {
+    color: white;
+    width: 25%;
+}
+#bouton_compte5 {
+    color: white;
+    width: 23%;
+}
+
+
+
+
+@media only screen and (max-device-width: 768px){
+    #bouton_compte5, #bouton_compte4, #bouton_compte3, #bouton_compte2{
+        width: 100%;
+        
+        
+    }
+}
+
+
+@media only screen and (max-device-width: 768px){
+    #table_titre{
+        display:none;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+
+@media only screen and (max-device-width: 768px){
+   .hide{
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+    }
+}
+
+
+#bouton_historique {
+    width: 100%;
+}
+
+#bouton_historique2 {
+    width: 25%;
+}
+
+
+#bouton_historique3 {
+    width: 25%;
+}
+#bouton_historique4 {
+    width: 25%;
+}
+#bouton_historique5 {
+    width: 24%;
+}
+
+
+@media only screen and (max-device-width: 768px){
+    #bouton_historique2, #bouton_historique3, #bouton_historique4,#bouton_historique5{
+        width: 100%;
+        
+        
+    }
+}
+
+
+
+.paiement{
+    border: 1px solid #A3CE36;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.paiement3{
+    border: 1px solid #A3CE36;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 65%;
+}
+
+
+
+@media only screen and (max-device-width: 768px){
+    .paiement3{
+        width: 100%;
+            }
+}
+
+
+.paiement2{
+  text-align: center;
+}
+
+#form_paiement
+{
+    width: 85%;
+margin: 0 auto;
+}
+#form_paiement2
+{
+    width: 85%;
+margin: 0 auto;
+}
+#form_paiement3
+{
+    width: 85%;
+margin: 0 auto;
+}
+#form_paiement4
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement5
+{
+    width: 85%;
+margin: 0 auto;
+}
+#form_paiement6
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement7
+{
+width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement8
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement9
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement10
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement11
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement12
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement13
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement14
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement15
+{
+    width: 85%;
+margin: 0 auto;
+}
+#form_paiement16
+{
+    width: 85%;
+margin: 0 auto;
+}
+#form_paiement17
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement18
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement19
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement20
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+#form_paiement21
+{
+    width: 85%;
+margin: 0 auto;
+}
+
+
+#form_paiement22
+{
+    width: 100%;
+margin: 0 auto;
+}
+
+
+
+
+
+.form_paiement {
+    text-align: left;
+}
+
+#succes_message {
+    background-color: green;
+    text-align: center;
+   color: white;
+}
+
+#fail_message {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.supp{
+    margin-left: 10%;
+}
+
+#supp{
+    margin-left: 10%;
+}
+
+#supp1{
+    margin-left: 10%;
+}
+
+#supp2{
+    margin-left: 10%;
+}
+
+#supp3{
+    margin-left: 10%;
+}
+
+#bouton_pret{
+    width: 100%;
+}
